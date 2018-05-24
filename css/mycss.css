@@ -1,0 +1,54 @@
+body, header, footer {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg {
+
+    /* The image used */
+    background-image:linear-gradient(rgba(0,123,255,1),rgba(0,0,0,.2)), url("../images/bg.jpg");
+
+    /* Half height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+
+    padding: 1rem;
+}
+
+.bg .btn {
+  background: none;
+  color: white;
+  border: 2px solid white;
+}
+
+#testimonials {
+  background: rgb(0, 123, 255);
+  color: white;
+}
+
+footer {
+  background: rgb(0, 123, 255);
+  color: white;
+  text-align: center;
+  font-size: .8rem;
+}
+
+#indexmain a {
+  text-decoration: none;
+  color: black;
+}
+
+#indexmain .secondarynav {
+  position: relative;
+}
+
+hr {
+  margin: 0;
+}
