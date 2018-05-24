@@ -5,6 +5,10 @@ body, header, footer {
   font-family: 'Sunflower', sans-serif;
 }
 
+h1 {
+  margin-top: 1rem;
+}
+
 .bg {
 
     /* The image used */

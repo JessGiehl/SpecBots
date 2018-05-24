@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/mycss.css">
   <title>SpecBots - Events</title>
 </head>
+<body>
 <header>
   <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
 
@@ -35,65 +36,67 @@
     </div> <!--container-->
   </nav>
 </header>
-<body>
-<div class="container">
-<h1>Events</h1>
-<p>Book us for your next birthday party or event and we’ll bring out a battle arena, a collection of our 1 pound robots, and a technician for on site repairs. All our robots are safe to be piloted by kids 7+ and our staff is very knowledgeable.</p>
-<img class="img-fluid shadow mb-5 bg-white rounded" src="images/eventphoto.png" alt="">
-<h2>Pricing</h2>
-<ul>
-  <div>
-    <img src="images/robots.svg" alt="" width="100" height="100">
-    <h3>Small</h3>
-    <p>
-      Small quick bot battles, perfect for children’s birthday parties.
-    </p>
-    <dl>
-      <dt>Robots</dt>
-      <dd>6</dd>
-      <dt>Length</dt>
-      <dd>1.5 hours</dd>
-      <dt>Price</dt>
-      <dd>$200</dd>
-    </dl>
+<section id="events">
+  <div class="row justify-content-center mb-4">
+    <div class="col-10">
+      <h1>Events</h1>
+      <p>Book us for your next birthday party or event and we’ll bring out a battle arena, a collection of our 1 pound robots, and a technician for on site repairs. All our robots are safe to be piloted by kids 7+ and our staff is very knowledgeable.</p>
+      <img class="img-fluid shadow mb-5 bg-white rounded" src="images/eventphoto.png" alt="">
+      <h2 class="offset-1 offset-md-0">Pricing</h2>
+      <div class="row justify-content-center">
+        <div class="col-10 col-md-6 pricing">
+          <img class="img-fluid" src="images/small.png" alt="">
+          <h3 class="d-none">Small</h3>
+          <p>
+            Small quick bot battles, perfect for children’s birthday parties.
+          </p>
+          <dl>
+            <dt>Robots</dt>
+            <dd>6</dd>
+            <dt>Length</dt>
+            <dd>1.5 hours</dd>
+            <dt>Price</dt>
+            <dd>$200</dd>
+          </dl>
+        </div>
+        <div class="col-10 col-md-6 pricing">
+          <img class="img-fluid" src="images/large.png" alt="">
+          <h3 class="d-none">Large</h3>
+          <p>
+            Great for larger parties, end your event with a big battle royale!
+          </p>
+          <dl>
+            <dt>Robots</dt>
+            <dd>8</dd>
+            <dt>Length</dt>
+            <dd>2.5 hours</dd>
+            <dt>Price</dt>
+            <dd>$400</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
   </div>
-  <div>
-    <img src="images/large.svg" alt="" width="100" height="100">
-    <h3>Large</h3>
-    <p>
-      Great for larger parties, end your event with a big battle royale!
-    </p>
-    <dl>
-      <dt>Robots</dt>
-      <dd>8</dd>
-      <dt>Length</dt>
-      <dd>2.5 hours</dd>
-      <dt>Price</dt>
-      <dd>$400</dd>
-    </dl>
-  </div>
-</ul>
-</div><!-- container -->
 
-<div class="container">
   <div class="row justify-content-center">
-    <div class="col">
-      <p>Call and book your event today!</p>
+    <div class="mr-2">
+      <img class="img-fluid" src="images/phone.svg" alt="" width="60" height="60">
+    </div>
+    <div>
+      <p><strong>Call and book your event today!</strong></p>
       <p>1-000-000-0000</p>
     </div>
-    <div class="col">
-      <img class="img-fluid" src="images/phone.svg" alt="" width="70" height="70">
-    </div>
   </div>
-</div>
+</section>
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.slim.js"
   integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
   crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
 <footer>
-  <p>Copyright SpecBots 2018</p>
+  <div>Copyright SpecBots 2018</div>
+  <div>1-000-000-0000</div>
 </footer>
+</body>
 </html>
