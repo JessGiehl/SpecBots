@@ -2,6 +2,7 @@ body, header, footer {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Sunflower', sans-serif;
 }
 
 .bg {
