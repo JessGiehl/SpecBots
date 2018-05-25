@@ -6,7 +6,7 @@
 	.st0{fill:none;stroke:#FFFFFF;stroke-width:26.8423;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#FFFFFF;stroke-width:25.6752;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;}
-	.st3{font-family:'DINAlternate-Bold';}
+	.st3{font-family:'Sunflower-Medium';}
 	.st4{font-size:470px;}
 </style>
 <path class="st0" d="M621.3,695.6H92.7c-13,0-23.5-10.5-23.5-23.5V216.7c0-13,10.5-23.5,23.5-23.5h528.6c13,0,23.5,10.5,23.5,23.5
@@ -19,5 +19,5 @@
 <path class="st0" d="M189.9,531.5c9.9,83.1,167.1,67.3,167.1,67.3"/>
 <path class="st0" d="M357,193.2c-2-133.5,73.2-127.6,73.2-127.6"/>
 <circle class="st1" cx="474" cy="67.8" r="48.7"/>
-<text transform="matrix(1 0 0 1 816.5759 565.6864)" class="st2 st3 st4">SpecBots</text>
+<text transform="matrix(1 0 0 1 762.5759 587.6864)" class="st2 st3 st4">SpecBots</text>
 </svg>

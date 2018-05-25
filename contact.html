@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/mycss.css">
   <title>SpecBots - Contact Us</title>
 </head>
+<body>
 <header>
   <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
 
@@ -33,76 +34,76 @@
     </div> <!--container-->
   </nav>
 </header>
-<body>
-<div class="container">
-  <div class="row">
-  <div class="container col-sm-6">
-  <h1>Contact Us</h1>
-  <h2>Mailing Address</h2>
-  <p>
-  Spec Bots Events<br>
-  0000 Placeholder St<br>
-  Orlando, FL 01010<br>
-  </p>
-  <dl>
-    <dt>Phone:</dt>
-    <dd>(000) 000-0000</dd>
-    <dt>Email:</dt>
-    <dd>admin@specbotsevents.com</dd>
-    <dt>Facebook:</dt>
-    <dd>SpecBots</dd>
-  </dl>
-  </div><!-- container -->
-  <div class="container col-sm-6">
-    <form>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="firstname" class="d-none">First Name:</label>
-          <input type="text" id="firstname" name="firstname" placeholder="First Name">
-        </div>
-        <div class="form-group">
-          <label for="lastname" class="d-none">Last Name:</label>
-          <input type="text" id="lastname" name="lastname" placeholder="Last Name">
-        </div>
+<section id="contact">
+  <div class="row justify-content-center">
+      <div class="col-10 row justift-content-in-between">
+        <div class="col-md-5 col-12">
+        <h1>Contact Us</h1>
+        <h2>Mailing Address</h2>
+        <p>
+        Spec Bots Events<br>
+        0000 Placeholder St<br>
+        Orlando, FL 01010<br>
+        </p>
+        <dl>
+          <dt>Phone:</dt>
+          <dd>(000) 000-0000</dd>
+          <dt>Email:</dt>
+          <dd>admin@specbotsevents.com</dd>
+          <dt>Facebook:</dt>
+          <dd>SpecBots</dd>
+        </dl>
+      </div><!-- container -->
+      <div class="col-md-7 col-12 mt-md-5 mt-0">
+        <form>
+          <div class="form-row">
+            <div class="col-auto mb-2">
+              <label for="firstname" class="d-sm-none">First Name:</label>
+              <input type="text" id="firstname" name="firstname" placeholder="First Name">
+            </div>
+            <div class="col-auto mb-2">
+              <label for="lastname" class="d-sm-none">Last Name:</label>
+              <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-auto mb-2">
+              <label for="email" class="d-sm-none">Email:</label>
+              <input type="text" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="col-auto mb-2">
+              <label for="telephone" class="d-sm-none">Telephone:</label>
+              <input type="text" id="telephone" name="telephone" placeholder="Telephone">
+            </div>
+          </div>
+          <div>
+            <label for="message" class="d-none">Message:</label>
+            <textarea name="message" rows="8" cols="41" placeholder="Message"></textarea>
+          </div>
+          <div class="col-auto row">
+            <div class="justify-self-end">
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
       </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="email" class="d-none">Email:</label>
-          <input type="text" id="email" name="email" placeholder="Email">
-        </div>
-        <div class="form-group">
-          <label for="telephone" class="d-none">Telephone:</label>
-          <input type="text" id="telephone" name="telephone" placeholder="Telephone">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="message" class="d-none">Message:</label>
-        <textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
-      </div>
-      <div class="form-row float-right">
-        <div class="justify-content-end">
-          <button type="button" class="btn btn-primary">Send</button>
-        </div>
-      </div>
-
-
-    </form>
-  </div><!--row-->
-  </div> <!--container-->
-  <div class="container-fluid">
-
+    </div>
   </div>
-</div><!--container-->
+<div class="container-fluid mt-3 p-0">
+  <p class="text-center m-0">Operating proudly out of Familab in Orlando, Fl!</p>
 
+  <img class="img-fluid" src="images/map.png" alt="">
+</div>
+</section>
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.slim.js"
   integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
   crossorigin="anonymous"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
 <footer>
   <div>Copyright SpecBots 2018</div>
   <div>1-000-000-0000</div>
 </footer>
+</body>
 </html>
